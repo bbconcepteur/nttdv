@@ -1,0 +1,121 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="generated.app.controller.14782457382023959_S0" xmlns:m="sap.m"
+	xmlns:layout="sap.ui.commons.layout">
+	<m:Page id="sap_m_Page_0" enableScrolling="false" showHeader="true" title="SEARCH PRODUCT" showFooter="false" showNavButton="false">
+		<m:content>
+			<layout:AbsoluteLayout id="FP_ABSOLUTE-lt" horizontalScrolling="Hidden" verticalScrolling="Auto">
+				<layout:positions>
+					<layout:PositionContainer id="FP_ABSOLUTE-cw0" left="91px" top="97px">
+						<layout:control>
+							<m:Label id="sap_m_Page_0-content-sap_m_Label-1478246491684" text="Search conditions" design="Bold" width="219px" required="false"
+								textAlign="Begin" textDirection="Inherit"/>
+						</layout:control>
+					</layout:PositionContainer>
+					<layout:PositionContainer id="FP_ABSOLUTE-cw1" left="86px" top="178px">
+						<layout:control>
+							<m:Label id="sap_m_Page_0-content-sap_m_Label-1478246533824" text="ID" design="Bold" width="83.28334045410156px" required="false"
+								textAlign="Begin" textDirection="Inherit"/>
+						</layout:control>
+					</layout:PositionContainer>
+					<layout:PositionContainer id="FP_ABSOLUTE-cw2" left="137px" top="164px">
+						<layout:control>
+							<m:Input id="sap_m_Page_0-content-sap_m_Input-1478246580572" type="Text" showValueHelp="false" enabled="true" visible="true" width="auto"
+								valueHelpOnly="false" maxLength="0"/>
+						</layout:control>
+					</layout:PositionContainer>
+					<layout:PositionContainer id="FP_ABSOLUTE-cw3" left="634px" top="165px">
+						<layout:control>
+							<m:Input id="sap_m_Page_0-content-sap_m_Input-1478246591875" type="Text" showValueHelp="false" enabled="true" visible="true"
+								width="275.3500061035156px" valueHelpOnly="false" maxLength="0"/>
+						</layout:control>
+					</layout:PositionContainer>
+					<layout:PositionContainer id="FP_ABSOLUTE-cw4" left="520px" top="180px">
+						<layout:control>
+							<m:Label id="sap_m_Page_0-content-sap_m_Label-1478246603275" text="Name" design="Bold" width="83.28334045410156px" required="false"
+								textAlign="Begin" textDirection="Inherit"/>
+						</layout:control>
+					</layout:PositionContainer>
+					<layout:PositionContainer id="FP_ABSOLUTE-cw5" left="741px" top="249px">
+						<layout:control>
+							<m:Button id="sap_m_Page_0-content-sap_m_Button-1478246622475" iconDensityAware="false" text="Search" type="Accept" iconFirst="true"
+								width="167.35000610351562px" enabled="true" visible="true" press="onSearch"/>
+						</layout:control>
+					</layout:PositionContainer>
+					<layout:PositionContainer id="FP_ABSOLUTE-cw6" left="85px" top="345px">
+						<layout:control>
+							<m:Label id="sap_m_Page_0-content-sap_m_Label-1478246665913" text="Search result" design="Bold" width="165.76666259765625px"
+								required="false" textAlign="Begin" textDirection="Inherit"/>
+						</layout:control>
+					</layout:PositionContainer>
+					<layout:PositionContainer id="FP_ABSOLUTE-cw7" left="310px" top="347px">
+						<layout:control>
+							<m:Label id="sap_m_Page_0-content-sap_m_Label-1478246691924" text="30" design="Standard" width="67.11666870117188px" required="false"
+								textAlign="Begin" textDirection="Inherit"/>
+						</layout:control>
+					</layout:PositionContainer>
+					<layout:PositionContainer id="FP_ABSOLUTE-cw8" left="81px" top="416px">
+						<layout:control>
+							<m:Table id="sap_m_Page_0-content-build_simple_Table-1478246792286" width="826.0333251953125px" noDataText="No data" mode="MultiSelect"
+								showSeparators="All" growing="true" growingThreshold="10" growingScrollToLoad="true" items="{/Products}" itemPress="_onTableItemPress">
+								<m:headerToolbar/>
+								<m:columns>
+									<m:Column id="sap_m_Page_0-content-build_simple_Table-1478246792286-columns-build_simple_Column-1" width="auto" hAlign="Left" vAlign="Top"
+										minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+										<m:header>
+											<m:Text id="sap_m_Page_0-content-build_simple_Table-1478246792286-columns-build_simple_Column-1-header-sap_m_Text-1" text="ID" width="auto"
+												maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+										</m:header>
+										<m:footer/>
+									</m:Column>
+									<m:Column id="sap_m_Page_0-content-build_simple_Table-1478246792286-columns-build_simple_Column-2" width="auto" hAlign="Left" vAlign="Top"
+										minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+										<m:header>
+											<m:Text id="sap_m_Page_0-content-build_simple_Table-1478246792286-columns-build_simple_Column-2-header-sap_m_Text-1" text="Name"
+												width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+										</m:header>
+										<m:footer/>
+									</m:Column>
+									<m:Column id="sap_m_Page_0-content-build_simple_Table-1478246792286-columns-build_simple_Column-3" width="auto" hAlign="Left" vAlign="Top"
+										minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+										<m:header>
+											<m:Text id="sap_m_Page_0-content-build_simple_Table-1478246792286-columns-build_simple_Column-3-header-sap_m_Text-1" text="Description"
+												width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+										</m:header>
+										<m:footer/>
+									</m:Column>
+								</m:columns>
+								<m:items>
+									<m:ColumnListItem id="sap_m_Page_0-content-build_simple_Table-1478246792286-items-build_simple_Row-1" type="Active">
+										<m:cells>
+											<m:ObjectIdentifier id="sap_m_Page_0-content-build_simple_Table-1478246792286-items-build_simple_Row-1-cells-sap_m_ObjectIdentifier-1"
+												title="{ID}" text="{Name}" titleActive="false" visible="true"/>
+											<m:Text id="sap_m_Page_0-content-build_simple_Table-1478246792286-items-build_simple_Row-1-cells-sap_m_Text-2" text="{Description}"
+												width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+											<m:ObjectNumber id="sap_m_Page_0-content-build_simple_Table-1478246792286-items-build_simple_Row-1-cells-sap_m_ObjectNumber-3"
+												number="150.00" unit="USD" state="None"/>
+										</m:cells>
+									</m:ColumnListItem>
+								</m:items>
+							</m:Table>
+						</layout:control>
+					</layout:PositionContainer>
+				</layout:positions>
+			</layout:AbsoluteLayout>
+		</m:content>
+		<m:footer>
+			<m:Bar id="sap_m_Page_0-footer-sap_m_Bar-1" design="Auto">
+				<m:contentLeft/>
+				<m:contentMiddle/>
+				<m:contentRight>
+					<m:Button id="sap_m_Page_0-footer-sap_m_Bar-1-contentRight-sap_m_Button-1" iconDensityAware="false" text="Approve" type="Accept"
+						iconFirst="true" width="auto" enabled="true" visible="true"/>
+					<m:Button id="sap_m_Page_0-footer-sap_m_Bar-1-contentRight-sap_m_Button-2" iconDensityAware="false" text="Reject" type="Reject"
+						iconFirst="true" width="auto" enabled="true" visible="true"/>
+					<m:Button id="sap_m_Page_0-footer-sap_m_Bar-1-contentRight-sap_m_Button-3" iconDensityAware="false" text="" type="Default"
+						icon="sap-icon://action" iconFirst="true" width="auto" enabled="true" visible="true"/>
+				</m:contentRight>
+			</m:Bar>
+		</m:footer>
+		<m:headerContent/>
+		<m:customHeader/>
+	</m:Page>
+</mvc:View>

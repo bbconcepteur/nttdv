@@ -1,0 +1,263 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="generated.app.controller.14782471757049828_S1" xmlns:m="sap.m"
+	xmlns:layout="sap.ui.commons.layout" xmlns:form="sap.ui.layout.form" xmlns:core="sap.ui.core">
+	<m:Page id="sap_m_Page_0" enableScrolling="false" showHeader="true" title="MODIFY PRODUCT" showFooter="false" showNavButton="true">
+		<m:content>
+			<layout:AbsoluteLayout id="FP_ABSOLUTE-lt" horizontalScrolling="Hidden" verticalScrolling="Auto">
+				<layout:positions>
+					<layout:PositionContainer id="FP_ABSOLUTE-cw0" left="38px" top="32px">
+						<layout:control>
+							<m:Label id="sap_m_Page_0-content-sap_m_Label-1478247134717" text="ID" design="Bold" width="74.06666564941406px" required="false"
+								textAlign="Begin" textDirection="Inherit"/>
+						</layout:control>
+					</layout:PositionContainer>
+					<layout:PositionContainer id="FP_ABSOLUTE-cw1" left="39px" top="72px">
+						<layout:control>
+							<m:Label id="sap_m_Page_0-content-sap_m_Label-1478247158564" text="Name" design="Bold" width="74.06666564941406px" required="false"
+								textAlign="Begin" textDirection="Inherit"/>
+						</layout:control>
+					</layout:PositionContainer>
+					<layout:PositionContainer id="FP_ABSOLUTE-cw2" left="36px" top="122px">
+						<layout:control>
+							<m:Label id="sap_m_Page_0-content-sap_m_Label-1478247163204" text="Description" design="Bold" width="86.88333129882812px" required="false"
+								textAlign="Begin" textDirection="Inherit"/>
+						</layout:control>
+					</layout:PositionContainer>
+					<layout:PositionContainer id="FP_ABSOLUTE-cw3" left="37px" top="174px">
+						<layout:control>
+							<m:Label id="sap_m_Page_0-content-sap_m_Label-1478247167492" text="Price" design="Bold" width="74.06666564941406px" required="false"
+								textAlign="Begin" textDirection="Inherit"/>
+						</layout:control>
+					</layout:PositionContainer>
+					<layout:PositionContainer id="FP_ABSOLUTE-cw4" left="36px" top="225px">
+						<layout:control>
+							<m:Label id="sap_m_Page_0-content-sap_m_Label-1478247171934" text="Rating" design="Bold" width="74.06666564941406px" required="false"
+								textAlign="Begin" textDirection="Inherit"/>
+						</layout:control>
+					</layout:PositionContainer>
+					<layout:PositionContainer id="FP_ABSOLUTE-cw5" left="38px" top="278px">
+						<layout:control>
+							<m:Label id="sap_m_Page_0-content-sap_m_Label-1478247178222" text="Release Date" design="Bold" width="95.83332824707031px" required="false"
+								textAlign="Begin" textDirection="Inherit"/>
+						</layout:control>
+					</layout:PositionContainer>
+					<layout:PositionContainer id="FP_ABSOLUTE-cw6" left="141px" top="55px">
+						<layout:control>
+							<m:Input id="sap_m_Page_0-content-sap_m_Input-1478247220123" type="Text" showValueHelp="false" enabled="true" visible="true"
+								width="260.16668701171875px" valueHelpOnly="false" maxLength="0"/>
+						</layout:control>
+					</layout:PositionContainer>
+					<layout:PositionContainer id="FP_ABSOLUTE-cw7" left="140px" top="105px">
+						<layout:control>
+							<m:Input id="sap_m_Page_0-content-sap_m_Input-1478247231586" type="Text" showValueHelp="false" enabled="true" visible="true"
+								width="260.16668701171875px" valueHelpOnly="false" maxLength="0"/>
+						</layout:control>
+					</layout:PositionContainer>
+					<layout:PositionContainer id="FP_ABSOLUTE-cw8" left="140px" top="159px">
+						<layout:control>
+							<m:Input id="sap_m_Page_0-content-sap_m_Input-1478247241441" type="Text" showValueHelp="false" enabled="true" visible="true"
+								width="260.16668701171875px" valueHelpOnly="false" maxLength="0"/>
+						</layout:control>
+					</layout:PositionContainer>
+					<layout:PositionContainer id="FP_ABSOLUTE-cw9" left="140px" top="212px">
+						<layout:control>
+							<m:Input id="sap_m_Page_0-content-sap_m_Input-1478247249250" type="Text" showValueHelp="false" enabled="true" visible="true"
+								width="260.16668701171875px" valueHelpOnly="false" maxLength="0"/>
+						</layout:control>
+					</layout:PositionContainer>
+					<layout:PositionContainer id="FP_ABSOLUTE-cw10" left="149px" top="31px">
+						<layout:control>
+							<m:Label id="sap_m_Page_0-content-sap_m_Label-1478247283581" text="11" design="Bold" width="74.06666564941406px" required="false"
+								textAlign="Begin" textDirection="Inherit"/>
+						</layout:control>
+					</layout:PositionContainer>
+					<layout:PositionContainer id="FP_ABSOLUTE-cw11" left="140px" top="264px">
+						<layout:control>
+							<m:DatePicker id="sap_m_Page_0-content-sap_m_DatePicker-1478247327066" displayFormat="MMM dd, yyyy" enabled="true" visible="true"
+								width="260.066650390625px"/>
+						</layout:control>
+					</layout:PositionContainer>
+					<layout:PositionContainer id="FP_ABSOLUTE-cw12" left="328px" top="327px">
+						<layout:control>
+							<m:Button id="sap_m_Page_0-content-sap_m_Button-1478248832602" iconDensityAware="false" text="Save" type="Accept" iconFirst="true"
+								width="73.88333129882812px" enabled="true" visible="true" press="_onButtonPress"/>
+						</layout:control>
+					</layout:PositionContainer>
+					<layout:PositionContainer id="FP_ABSOLUTE-cw13" left="245px" top="326px">
+						<layout:control>
+							<m:Button id="sap_m_Page_0-content-sap_m_Button-1478248848945" iconDensityAware="false" text="Cancel" type="Reject" iconFirst="true"
+								width="73.88333129882812px" enabled="true" visible="true" press="_onButtonPress1"/>
+						</layout:control>
+					</layout:PositionContainer>
+					<layout:PositionContainer id="FP_ABSOLUTE-cw14" left="400px" top="31px">
+						<layout:control>
+							<form:Form id="sap_m_Page_0-content-sap_ui_layout_form_Form-1478249001900" width="603.066650390625px" visible="true">
+								<form:formContainers>
+									<form:FormContainer id="sap_m_Page_0-content-sap_ui_layout_form_Form-1478249001900-formContainers-sap_ui_layout_form_FormContainer-1"
+										visible="true">
+										<form:formElements>
+											<form:FormElement
+												id="sap_m_Page_0-content-sap_ui_layout_form_Form-1478249001900-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-1"
+												visible="true">
+												<form:fields>
+													<m:Text
+														id="sap_m_Page_0-content-sap_ui_layout_form_Form-1478249001900-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-1-fields-sap_m_Text-1"
+														text="Field" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+												</form:fields>
+												<form:label>
+													<m:Label
+														id="sap_m_Page_0-content-sap_ui_layout_form_Form-1478249001900-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-1-label-sap_m_Label-1"
+														text="Label" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit"/>
+												</form:label>
+											</form:FormElement>
+											<form:FormElement
+												id="sap_m_Page_0-content-sap_ui_layout_form_Form-1478249001900-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-2"
+												visible="true">
+												<form:fields>
+													<m:Text
+														id="sap_m_Page_0-content-sap_ui_layout_form_Form-1478249001900-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-2-fields-sap_m_Text-1"
+														text="Field" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+												</form:fields>
+												<form:label>
+													<m:Label
+														id="sap_m_Page_0-content-sap_ui_layout_form_Form-1478249001900-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-2-label-sap_m_Label-1"
+														text="Label" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit"/>
+												</form:label>
+											</form:FormElement>
+											<form:FormElement
+												id="sap_m_Page_0-content-sap_ui_layout_form_Form-1478249001900-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-3"
+												visible="true">
+												<form:fields>
+													<m:Text
+														id="sap_m_Page_0-content-sap_ui_layout_form_Form-1478249001900-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-3-fields-sap_m_Text-1"
+														text="Field" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+												</form:fields>
+												<form:label>
+													<m:Label
+														id="sap_m_Page_0-content-sap_ui_layout_form_Form-1478249001900-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-3-label-sap_m_Label-1"
+														text="Label" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit"/>
+												</form:label>
+											</form:FormElement>
+											<form:FormElement
+												id="sap_m_Page_0-content-sap_ui_layout_form_Form-1478249001900-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-4"
+												visible="true">
+												<form:fields>
+													<m:Text
+														id="sap_m_Page_0-content-sap_ui_layout_form_Form-1478249001900-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-4-fields-sap_m_Text-1"
+														text="Field" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+												</form:fields>
+												<form:label>
+													<m:Label
+														id="sap_m_Page_0-content-sap_ui_layout_form_Form-1478249001900-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-4-label-sap_m_Label-1"
+														text="Label" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit"/>
+												</form:label>
+											</form:FormElement>
+										</form:formElements>
+									</form:FormContainer>
+								</form:formContainers>
+								<form:layout/>
+								<form:title>
+									<core:Title id="sap_m_Page_0-content-sap_ui_layout_form_Form-1478249001900-title-sap_ui_core_Title-1" text="Form Title" level="Auto"/>
+								</form:title>
+							</form:Form>
+						</layout:control>
+					</layout:PositionContainer>
+					<layout:PositionContainer id="FP_ABSOLUTE-cw15" left="400px" top="243px">
+						<layout:control>
+							<form:Form id="sap_m_Page_0-content-sap_ui_layout_form_Form-1478249053884" width="880px" visible="true">
+								<form:formContainers>
+									<form:FormContainer id="sap_m_Page_0-content-sap_ui_layout_form_Form-1478249053884-formContainers-sap_ui_layout_form_FormContainer-1"
+										visible="true">
+										<form:formElements>
+											<form:FormElement
+												id="sap_m_Page_0-content-sap_ui_layout_form_Form-1478249053884-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-1"
+												visible="true">
+												<form:fields>
+													<m:Text
+														id="sap_m_Page_0-content-sap_ui_layout_form_Form-1478249053884-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-1-fields-sap_m_Text-1"
+														text="Field" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+												</form:fields>
+												<form:label>
+													<m:Label
+														id="sap_m_Page_0-content-sap_ui_layout_form_Form-1478249053884-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-1-label-sap_m_Label-1"
+														text="Label" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit"/>
+												</form:label>
+											</form:FormElement>
+											<form:FormElement
+												id="sap_m_Page_0-content-sap_ui_layout_form_Form-1478249053884-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-2"
+												visible="true">
+												<form:fields>
+													<m:Text
+														id="sap_m_Page_0-content-sap_ui_layout_form_Form-1478249053884-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-2-fields-sap_m_Text-1"
+														text="Field" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+												</form:fields>
+												<form:label>
+													<m:Label
+														id="sap_m_Page_0-content-sap_ui_layout_form_Form-1478249053884-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-2-label-sap_m_Label-1"
+														text="Label" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit"/>
+												</form:label>
+											</form:FormElement>
+											<form:FormElement
+												id="sap_m_Page_0-content-sap_ui_layout_form_Form-1478249053884-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-3"
+												visible="true">
+												<form:fields>
+													<m:Text
+														id="sap_m_Page_0-content-sap_ui_layout_form_Form-1478249053884-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-3-fields-sap_m_Text-1"
+														text="Field" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+												</form:fields>
+												<form:label>
+													<m:Label
+														id="sap_m_Page_0-content-sap_ui_layout_form_Form-1478249053884-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-3-label-sap_m_Label-1"
+														text="Label" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit"/>
+												</form:label>
+											</form:FormElement>
+											<form:FormElement
+												id="sap_m_Page_0-content-sap_ui_layout_form_Form-1478249053884-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-4"
+												visible="true">
+												<form:fields>
+													<m:Text
+														id="sap_m_Page_0-content-sap_ui_layout_form_Form-1478249053884-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-4-fields-sap_m_Text-1"
+														text="Field" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+												</form:fields>
+												<form:label>
+													<m:Label
+														id="sap_m_Page_0-content-sap_ui_layout_form_Form-1478249053884-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-4-label-sap_m_Label-1"
+														text="Label" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit"/>
+												</form:label>
+											</form:FormElement>
+										</form:formElements>
+									</form:FormContainer>
+								</form:formContainers>
+								<form:layout/>
+								<form:title>
+									<core:Title id="sap_m_Page_0-content-sap_ui_layout_form_Form-1478249053884-title-sap_ui_core_Title-1" text="Form Title" level="Auto"/>
+								</form:title>
+							</form:Form>
+						</layout:control>
+					</layout:PositionContainer>
+					<layout:PositionContainer id="FP_ABSOLUTE-cw16" left="204px" top="361px">
+						<layout:control>
+							<form:ResponsiveGridLayout id="sap_m_Page_0-content-sap_ui_layout_form_Form-1478249053884-layout-sap_ui_layout_form_ResponsiveGridLayout-1"
+								columnsM="4" columnsL="4" emptySpanL="0" emptySpanM="0" emptySpanS="0" visible="true" labelSpanS="12" labelSpanM="2" labelSpanL="4"/>
+						</layout:control>
+					</layout:PositionContainer>
+				</layout:positions>
+			</layout:AbsoluteLayout>
+		</m:content>
+		<m:footer>
+			<m:Bar id="sap_m_Page_0-footer-sap_m_Bar-1" design="Auto">
+				<m:contentLeft/>
+				<m:contentMiddle/>
+				<m:contentRight>
+					<m:Button id="sap_m_Page_0-footer-sap_m_Bar-1-contentRight-sap_m_Button-1" iconDensityAware="false" text="Approve" type="Accept"
+						iconFirst="true" width="auto" enabled="true" visible="true"/>
+					<m:Button id="sap_m_Page_0-footer-sap_m_Bar-1-contentRight-sap_m_Button-2" iconDensityAware="false" text="Reject" type="Reject"
+						iconFirst="true" width="auto" enabled="true" visible="true"/>
+					<m:Button id="sap_m_Page_0-footer-sap_m_Bar-1-contentRight-sap_m_Button-3" iconDensityAware="false" text="" type="Default"
+						icon="sap-icon://action" iconFirst="true" width="auto" enabled="true" visible="true"/>
+				</m:contentRight>
+			</m:Bar>
+		</m:footer>
+		<m:headerContent/>
+		<m:customHeader/>
+	</m:Page>
+</mvc:View>
